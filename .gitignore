@@ -6,4 +6,4 @@ node_modules
 
 # Rescript-specific stuffs
 lib
-src/*.bs.js
+src/**/*.bs.js

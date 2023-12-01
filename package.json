@@ -13,10 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rescript": "^10.1.4",
-    "rescript-nodejs": "^15.0.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.4.1"
+    "rescript": "^10.1.4"
   }
 }
