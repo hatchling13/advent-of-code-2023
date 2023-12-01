@@ -1,0 +1,9 @@
+# Editor settings
+.vscode
+
+# Package manager settings
+node_modules
+
+# Rescript-specific stuffs
+lib
+src/*.bs.js

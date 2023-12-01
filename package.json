@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code-2023",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "res:build": "rescript",
+    "res:dev": "rescript build -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rescript": "^10.1.4",
+    "rescript-nodejs": "^15.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1"
+  }
+}
