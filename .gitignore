@@ -7,3 +7,6 @@ node_modules
 # Rescript-specific stuffs
 lib
 src/**/*.bs.js
+
+# AoC-specifig stuffs
+input
