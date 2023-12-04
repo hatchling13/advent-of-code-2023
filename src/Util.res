@@ -1,4 +1,3 @@
-open Belt
 open Belt.Array
 
 let sumInt = (nums: array<int>) =>
@@ -8,6 +7,12 @@ let isStringNumeric = number => number->Js.Float.fromString->Js.Float.isNaN == f
 
 let reverseLetters = letters => letters->reverse
 
-let removeCarriageReturn = letters => letters->keep(letter => letter !== "\r")
+let removeCarriageReturn = (line: Js.String.t) => {
+  if line |> Js.String.endsWith("\r") {
+    line->Js.String.slice(~from=0, ~to_=-1)
+  } else {
+    line
+  }
+}
 
 let splitToLetters = s => s |> Js.String.split("")
